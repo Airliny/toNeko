@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "org.cneko.toneko.common.mod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "client.SoundEngineMixin"
+  ],
+  "mixins": [
+    "CatEntityMixin",
+    "EntityMixin",
+    "PlayerEntityMixin",
+    "ServerLevelMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
